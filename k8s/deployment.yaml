@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: lab1-api
-        image: anastasia1564/lab1-api:v3
+        image: lab1-api:1.3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
